@@ -22,5 +22,15 @@ public class Variavels {
 
 //      #String
         String i = "Sequencia de caracteres"; //String é uma classe, não um type primitivo, armazena um sequencing de caracteres
+
+/*
+        #Constante
+            Constantes Imutavel:
+            adiciona final no inicio, se torna uma constante,
+            somente leitura
+*/
+        final int myNum = 15;
+//        myNum = 20;  // Error: cannot assign a value to final variable 'myNum'
+
     }
 }
