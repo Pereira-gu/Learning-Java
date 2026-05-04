@@ -1,3 +1,5 @@
+package basicTraine;
+
 public class Variavels {
     public static void main (String[] args[]){
 /*

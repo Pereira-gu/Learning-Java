@@ -1,3 +1,5 @@
+package basicTraine;
+
 import java.util.Arrays;
 
  class Array {
@@ -16,11 +18,11 @@ import java.util.Arrays;
 
 //  Arrays vazios, com tamanhos definidos
         int [] num = new int[5];
-        System.out.println("Array vazia: " + Arrays.toString(num));
+        System.out.println("basicTraine.Array vazia: " + Arrays.toString(num));
 
 //  adicionando valor ào array
         num[1] = 1;
-        System.out.println("Array populada: " + Arrays.toString(num));
+        System.out.println("basicTraine.Array populada: " + Arrays.toString(num));
 
 //      for que printa o indice e o valor do array
         for (int i = 0; i < num.length;i++) {
@@ -35,7 +37,7 @@ import java.util.Arrays;
 
         int sum = num[0]; //variavel inicial
         System.out.println("valor sum inicial: "+sum);
-        System.out.print("Printando o Array todo: ");
+        System.out.print("Printando o basicTraine.Array todo: ");
         System.out.println(Arrays.toString(num));
 
         for (int i = 1;i<num.length;i++){

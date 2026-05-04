@@ -1,3 +1,5 @@
+package basicTraine;
+
 import java.util.Scanner;
 
 public class Conditionals {

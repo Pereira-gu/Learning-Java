@@ -1,3 +1,5 @@
+package basicTraine;
+
 public class Typecasting {
     public static void main(String[] args){
         int meuInteiro = 9;

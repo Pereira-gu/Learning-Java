@@ -1,8 +1,10 @@
+package basicTraine;
+
 import java.util.Scanner;
 
 public class Loop {
 
-    //Loop e switch case
+    //basicTraine.Loop e switch case
     public static void main(String[] arg) {
         System.out.print("digite um numero ");
         Scanner input = new Scanner(System.in);
