@@ -49,11 +49,11 @@ public class Ninja {
 //    =================
 
     public void atacar(){
-        System.out.println(nome + "Atacou!");
+        System.out.println(nome + ", Atacou!");
     }
 
     public void defender(){
-        System.out.println(nome + "Defendeu!");
+        System.out.println(nome + ", Defendeu!");
     }
 
 }

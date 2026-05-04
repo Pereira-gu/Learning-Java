@@ -1,19 +1,18 @@
 package pootraining;
 
 
+import pootraining.clans.Uchiha;
+
 public class Main {
     public static void main(String[] args){
 
-        Ninja naruto = new Ninja();
-        naruto.nome = "Naruto Uzumaki";
-        naruto.idade = 13;
-        naruto.aldeia = "Konoha";
-//      naruto.Sharingan();
+//      Objeto criado com o constructor
+        Ninja naruto = new Ninja("Naruto Uzimaki", 13, "Konoha");
+        Uchiha sasuke = new Uchiha("Sasuke Uchiha", 14, "Konoha");
 
-        Uchiha sasuke = new Uchiha();
-        sasuke.nome = "Sasuke Uchiha";
-        sasuke.idade = 14;
-        sasuke.aldeia = "Konoha";
+//      Chamando os Metodos
+        naruto.atacar();
+        sasuke.atacar();
         sasuke.Sharingan();
     }
 }
