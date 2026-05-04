@@ -1,9 +1,8 @@
 package leetcode;
 
-public class LongestCommonPr {
+public class LongestPr {
 
     public String longestCommonPrefix(String[] strs) {
-        // Se o array for nulo ou vazio, retorna uma string vazia
         if (strs == null || strs.length == 0) {
             return "";
         }
@@ -22,7 +21,7 @@ public class LongestCommonPr {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        LongestPr sol = new LongestPr();
 
         // Caso de teste 1
         String[] strs1 = {"flower", "flow", "flight"};
@@ -36,7 +35,7 @@ public class LongestCommonPr {
         System.out.println("Saída esperada: \"\"");
         System.out.println("Saída obtida:   \"" + sol.longestCommonPrefix(strs2) + "\"\n");
 
-        // Caso de teste 3 - Apenas uma palavra
+        // Caso de teste 3
         String[] strs3 = {"interspecies"};
         System.out.println("Teste 3 - Entrada: [\"interspecies\"]");
         System.out.println("Saída esperada: \"interspecies\"");
